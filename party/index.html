@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self'; connect-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="theme-color" content="#090D15">
+  <meta property="og:title" content="PRESSURE! Orbit · Last Pilot">
+  <meta property="og:description" content="A private room for 2–4 players. Open the invitation or enter the room code in the game.">
+  <title>PRESSURE! Orbit · Room invitation</title>
+  <link rel="stylesheet" href="invite.css">
+  <script src="invite.js" defer></script>
+</head>
+<body>
+  <header><a href="../" class="brand">PRESSURE<span>!</span> ORBIT</a><nav aria-label="Language"><button type="button" data-language="tr">TR</button><button type="button" data-language="en">EN</button></nav></header>
+  <main>
+    <p class="eyebrow" data-copy="eyebrow">PRIVATE ROOM · 2–4 PLAYERS</p>
+    <h1 data-copy="title">Your game invitation</h1>
+    <p data-copy="intro">Play from anywhere. Internet is all you need; the same Wi-Fi is not required.</p>
+    <div class="reactor"><label for="room-code" data-copy="code">ROOM CODE</label><input id="room-code" readonly aria-label="Room code" value="——— ———" spellcheck="false"></div>
+    <a id="open-game" class="primary disabled" aria-disabled="true" data-copy="open">OPEN IN GAME</a>
+    <button id="copy-code" class="secondary" type="button" disabled data-copy="copy">COPY CODE</button>
+    <p id="invite-status" role="status" aria-live="polite"></p>
+    <p class="hint" data-copy="fallback">If the game does not open, launch PRESSURE! Orbit and choose Last Pilot → Join with code. A version with multiplayer is required.</p>
+    <p class="hint" data-copy="rules">Three mistakes and you are out. The last pilot wins. The host needs Orbit Plus; invited players join free.</p>
+    <p class="hint" data-copy="expiry">The game checks whether the room is still open. Ask the host for a fresh invitation if it has closed.</p>
+    <div class="stores"><a href="https://play.google.com/store/apps/details?id=com.pressureorbit.game" rel="noreferrer">Google Play</a><a href="https://apps.apple.com/app/id6829415344" rel="noreferrer">App Store</a></div>
+    <noscript><p>JavaScript is needed to read this invitation. Open the game and enter the six-digit code supplied by your host.</p></noscript>
+  </main>
+  <footer><a id="privacy" href="../privacy/" data-copy="privacy">Privacy</a><a id="support" href="../support/" data-copy="support">Support</a></footer>
+</body>
+</html>
